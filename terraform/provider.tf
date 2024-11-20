@@ -13,7 +13,7 @@ terraform {
     dynamodb_table = "dineshdevops.online-locking"
   }
 
-provider "aws" {
+  provider "aws" {
     region = "us-east-1"
   }
 }
